@@ -36,12 +36,12 @@ Siga exatamente a sequência abaixo.
 Antes de processar o resumo, determine:
 
 1. **A reunião é associada a um projeto formal do ecossistema?**
-   - Se sim: identificar qual projeto (ex.: P01 `telessaude-poc-prisional`)
+   - Se sim: identificar qual projeto (ex.: P01 `prj-telessaude-poc-prisional`)
    - Se não: a reunião é avulsa — será registrada apenas no `agenda-[unidade]`
 
 2. **Qual a unidade organizacional responsável?**
    - Padrão: DTD/SETIS/SES-DF
-   - Repositório de destino padrão: `agenda-dtd`
+   - Repositório de destino padrão: `agd-dtd`
 
 3. **Há token de acesso disponível nesta sessão?**
    - Se sim: a skill irá depositar o arquivo gerado no repositório correspondente
@@ -255,7 +255,7 @@ Antes de entregar o documento, verificar:
 ## Dependências
 
 - **S04 skill-github-orquestracao:** para depósito automático em sessões autenticadas
-- **agenda-[unidade]:** repositório de destino (ex: `agenda-dtd`)
+- **agenda-[unidade]:** repositório de destino (ex: `agd-dtd`)
 - **Repositório P do projeto:** quando a reunião for associada a projeto formal
 - **PLAUD NOTE Pro (opcional):** dispositivo de captura — a skill aceita qualquer formato de input
 
@@ -265,7 +265,7 @@ Antes de entregar o documento, verificar:
 
 | Arquivo | Propósito |
 |---|---|
-| `WORKFLOW.md` em `workflow-registro-reuniao` | Processo organizacional completo — missão, etapas, histórico, roadmap |
+| `WORKFLOW.md` em `wkf-registro-reuniao` | Processo organizacional completo — missão, etapas, histórico, roadmap |
 | `agenda-dtd/` | Repositório privado de registros de reunião da DTD |
 
 ---
@@ -279,4 +279,4 @@ Antes de entregar o documento, verificar:
 ---
 
 *Skill mantida pelo ecossistema DTD/SETIS/SES-DF.*
-*Consulte o CONTEXTO.md em github.com/victorarimatea/ecossistema-sumario para visão completa.*
+*Consulte o CONTEXTO.md em github.com/victorarimatea/hub-fonte para visão completa.*
